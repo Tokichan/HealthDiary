@@ -61,16 +61,20 @@
 
     <Button
         android:id="@+id/button3"
+        android:background="@drawable/round_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="250dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="128dp"
         android:text="設定時間"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
 
     <Button
         android:id="@+id/button4"
+        android:background="@drawable/round_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="250dp"
